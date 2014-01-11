@@ -67,19 +67,19 @@ src/Sculpin/Bundle/MarkdownBundle/MarkdownConverter.php
 
 remove from line 14:
 
-~~~
+~~~php
 use Michelf\Markdown;
 ~~~
 
 and transform line 48 from:
 
-~~~
+~~~php
     public function __construct(Markdown $markdown, array $extensions = array())
 ~~~
 
 to
 
-~~~
+~~~php
     public function __construct(Markdown $markdown, array $extensions = array())
 ~~~
 removing ```Markdown``` variable definition.
