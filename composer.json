@@ -1,0 +1,23 @@
+{
+    "name": "mavimo/sculpin-parsedown",
+    "description": "Sculpin Parsedown",
+    "homepage": "https://sculpin.io",
+    "keywords": ["parser", "markdown", "parsedown", "blogging", "blog", "static", "site"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Vito Moscaritolo",
+            "email": "marco@mavimo.org",
+            "homepage": "http://www.mavimo.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "erusev/parsedown": "*"
+    },
+    "autoload": {
+        "psr-0": { "Mavimo\\Sculpin\\Bundle\\ParsedownBundle": "" }
+    },
+    "target-dir": "Mavimo/Sculpin/Bundle/ParsedownBundle",
+    "minimum-stability": "beta"
+}
